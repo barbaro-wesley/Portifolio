@@ -24,34 +24,15 @@
   --fw-400: 400;
   --fw-700: 700;
 
-  /**
-   * transition
-   */
 
   --transition-1: 0.25s ease-in-out;
 
-  /**
-   * spacing
-   */
-
   --section-padding: 80px;
-
-  /**
-   * radius
-   */
 
   --radius-4: 4px;
   --radius-12: 12px;
 
 }
-
-
-
-
-
-/*-----------------------------------*\
- * #THEME COLORS
-\*-----------------------------------*/
 
 body.dark_theme {
 
@@ -78,14 +59,7 @@ body.light_theme {
   --shadow-1: 10px 10px 40px var(--card-shadow);
 
 }
-
-
-
-
-
-/*-----------------------------------*\
- * #RESET
-\*-----------------------------------*/
+---------------------------------*/
 
 *, *::before, *::after {
   margin: 0;
@@ -146,14 +120,6 @@ body {
 }
 
 body.active { overflow: hidden; }
-
-
-
-
-
-/*-----------------------------------*\
- * #REUSED STYLE
-\*-----------------------------------*/
 
 .container { padding-inline: 10px; }
 
@@ -256,14 +222,6 @@ top: 20px;}
   transition: var(--transition-1);
   z-index: 1;
 }
-
-
-
-
-
-/*-----------------------------------*\
- * #HEADER
-\*-----------------------------------*/
 
 .header {
   padding-block: 15px;

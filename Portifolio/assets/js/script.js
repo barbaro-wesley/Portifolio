@@ -1,5 +1,4 @@
 
-
 const elemToggleFunc = function (elem) { elem.classList.toggle("active"); }
 
 const header = document.querySelector("[data-header]");
